@@ -1,0 +1,87 @@
+{
+  "label": "SYNTHETIC data (pipeline check only)",
+  "seed": 42,
+  "smote_backend": "fallback (built-in)",
+  "n_raw_rows": 126244,
+  "n_inspections_modelled": 32033,
+  "n_restaurants": 7999,
+  "n_train": 25624,
+  "n_test": 6409,
+  "split_cutoff_date": "2020-10-28",
+  "high_risk_score_threshold": 28,
+  "train_prevalence": 0.21237901966906025,
+  "test_prevalence": 0.1440162271805274,
+  "majority_baseline_accuracy": 0.8559837728194726,
+  "models": {
+    "Logistic Regression + SMOTE": {
+      "accuracy": 0.7139959432048681,
+      "precision": 0.26973684210526316,
+      "recall": 0.5774647887323944,
+      "f1": 0.36771300448430494,
+      "roc_auc": 0.7238873381628563,
+      "pr_auc": 0.3527496934926637,
+      "tn": 4043,
+      "fp": 1443,
+      "fn": 390,
+      "tp": 533
+    },
+    "Random Forest + SMOTE": {
+      "accuracy": 0.8344515525042908,
+      "precision": 0.40028901734104044,
+      "recall": 0.3001083423618635,
+      "f1": 0.3430340557275542,
+      "roc_auc": 0.7183317804129806,
+      "pr_auc": 0.3368241310690051,
+      "tn": 5071,
+      "fp": 415,
+      "fn": 646,
+      "tp": 277
+    },
+    "Random Forest (no SMOTE, class_weight=balanced)": {
+      "accuracy": 0.8344515525042908,
+      "precision": 0.4065040650406504,
+      "recall": 0.3250270855904659,
+      "f1": 0.3612281757977122,
+      "roc_auc": 0.725637089030721,
+      "pr_auc": 0.3498358049719173,
+      "tn": 5048,
+      "fp": 438,
+      "fn": 623,
+      "tp": 300
+    }
+  },
+  "top_features": [
+    {
+      "feature": "num__prev_n_violations",
+      "importance": 0.14276667829065512
+    },
+    {
+      "feature": "num__hist_max_score",
+      "importance": 0.13497076383348366
+    },
+    {
+      "feature": "num__hist_mean_score",
+      "importance": 0.12957418913221022
+    },
+    {
+      "feature": "num__prev_n_critical",
+      "importance": 0.10396969066300565
+    },
+    {
+      "feature": "num__prev_score",
+      "importance": 0.09559305556928235
+    },
+    {
+      "feature": "num__days_since_prev",
+      "importance": 0.08632867390323523
+    },
+    {
+      "feature": "num__n_prev_inspections",
+      "importance": 0.07405574022776465
+    },
+    {
+      "feature": "num__hist_high_risk_rate",
+      "importance": 0.06992903767725654
+    }
+  ]
+}

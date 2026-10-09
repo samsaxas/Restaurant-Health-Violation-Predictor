@@ -1,0 +1,30 @@
+feature,importance
+num__prev_n_violations,0.14276667829065512
+num__hist_max_score,0.13497076383348366
+num__hist_mean_score,0.12957418913221022
+num__prev_n_critical,0.10396969066300565
+num__prev_score,0.09559305556928235
+num__days_since_prev,0.08632867390323523
+num__n_prev_inspections,0.07405574022776465
+num__hist_high_risk_rate,0.06992903767725654
+cat__boro_Manhattan,0.012494585771918223
+cat__boro_Queens,0.011863865841090369
+cat__boro_Brooklyn,0.01172226669585743
+cat__cuisine_Caribbean,0.009909938855104767
+cat__boro_Bronx,0.009179656582929241
+cat__cuisine_American,0.007426353253322812
+cat__cuisine_Mexican,0.007421713865375925
+cat__cuisine_Chinese,0.007322661660894312
+cat__cuisine_Indian,0.007279821180815538
+cat__cuisine_Other,0.007264870508312959
+cat__cuisine_Sandwiches,0.0071846769120681026
+cat__cuisine_Latin American,0.006890142856124948
+cat__inspection_type_Cycle Inspection / Initial Inspection,0.006885934671260391
+cat__inspection_type_Cycle Inspection / Re-inspection,0.006861532360736584
+cat__cuisine_Italian,0.006825331583993649
+cat__cuisine_Chicken,0.006687173785074198
+cat__cuisine_Japanese,0.006687043958753655
+cat__cuisine_Coffee/Tea,0.006167974558649946
+cat__cuisine_Pizza,0.0061121737563645875
+cat__cuisine_Bakery Products/Desserts,0.005669217143570424
+cat__boro_Staten Island,0.004955234900888464
